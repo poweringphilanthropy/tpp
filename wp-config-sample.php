@@ -30,7 +30,7 @@ define('DB_PASSWORD', 'password_here');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
-
+testing another ommit
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
