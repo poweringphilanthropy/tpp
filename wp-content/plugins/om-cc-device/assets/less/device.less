@@ -1,0 +1,813 @@
+.om-cc-device-holder {
+}
+
+.om-cc-device-content-wrapper,
+.om-cc-device-content {
+}
+.om-cc-device-content-inner {
+  border: 2px solid #111;
+  overflow: auto;
+  border-radius: 5px;
+}
+.om-cc-device {
+  position: relative;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &:after {
+    display: block;
+    content: '';
+    padding-top: 75%;
+  }
+
+  > .om-cc-device-content-inner { 
+
+    overflow: hidden;
+    transform: translateZ(0);
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &.om-cc-flat {
+    > .om-cc-device-content-inner {
+      background: rgba(0, 0, 0, 1);
+    }
+
+    &.om-cc-browser {
+      @top: 9.30631307%;
+      @left: 0.2%;
+      @height: 90.55368693402329%;
+      @width: 99.8%;
+      @ratio: 1.33;
+
+      &:after {
+        padding-top: 82.82142857142857%;
+      }
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        height: @height;
+        width: @width;
+        border: none;
+        border-radius: 0;
+      }
+      &.om-cc-dark {
+        background-image: url('../img/flat/browser/browser-dark.svg');
+      }
+      &.om-cc-light {
+        background-image: url('../img/flat/browser/browser-light.svg');
+      }
+    }
+
+    &.om-cc-desktop {
+      @top: 4.900599001467509%;
+      @left: 3.556667456251676%;
+      @height: 64.71749619177184%;
+      @width: 92.88760954404339%;
+      @ratio: 1.777777777777;
+
+      &:after {
+        padding-top: 80.78819847705385%;
+      }
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        height: @height;
+        width: @width;
+        border: none;
+        border-radius: 0;
+      }
+
+      &.om-cc-dark {
+        background-image: url('../img/flat/desktop/black.svg');
+      }
+      &.om-cc-light {
+        background-image: url('../img/flat/desktop/white.svg');
+      }
+    }
+
+    &.om-cc-laptop {
+      &.om-cc-dark,
+      &.om-cc-light {
+        @top: 7.472109564440659%;
+        @left: 12.77112585270779%;
+        @height: 80.83929841800502%;
+        @width: 74.30790955349284%;
+        @ratio: 1.6;
+
+        &:after {
+          padding-top: 57.4503404048676%;
+        }
+        > .om-cc-device-content-inner {
+          top: @top;
+          left: @left;
+          height: @height;
+          width: @width;
+          border: none;
+          border-radius: 0;
+        }
+      }
+
+      &.om-cc-dark {
+        background-image: url('../img/flat/laptop/black.svg');
+      }
+      &.om-cc-light {
+        background-image: url('../img/flat/laptop/white.svg');
+      }
+    }
+
+    &.om-cc-laptop {
+      &.om-cc-alternative-dark,
+      &.om-cc-alternative-light {
+        @top: 11.42840559661579%;
+        @left: 14.98318326411401%;
+        @height: 75.718206652204%;
+        @width: 69.6006692228299%;
+        @ratio: 1.6;
+
+        &:after {
+          padding-top: 57.45036178630783%;
+        }
+        > .om-cc-device-content-inner {
+          top: @top;
+          left: @left;
+          height: @height;
+          width: @width;
+          border: none;
+          border-radius: 0;
+        }
+      }
+
+      &.om-cc-alternative-dark {
+        background-image: url('../img/flat/laptop/alternative-black.svg');
+      }
+      &.om-cc-alternative-light {
+        background-image: url('../img/flat/laptop/alternative-white.svg');
+      }
+    }
+
+    &.om-cc-phone-landscape {
+      &.om-cc-gold,
+      &.om-cc-rose,
+      &.om-cc-silver,
+      &.om-cc-grey,
+      &.om-cc-dark,
+      &.om-cc-light {
+
+        @top: 6.47%;
+        @left: 11.762%;
+        @height: 86.41345885851983%;
+        @width: 75.65846999256942%;
+        @ratio: 1.777777;
+        @dY: 0.8%;
+        @d: @dY/@ratio;
+        @radiusY: 1.2%;
+        @radiusX: @radiusY / @ratio;
+
+        &:after {
+          padding-top: 49.249%;
+        }
+
+        > .om-cc-device-content-inner {
+          top: @top;
+          left: @left;
+          height: @height;
+          width: @width;
+        }
+      }
+      &.om-cc-gold {
+        background-image: url('../img/flat/phone-landscape/gold-landscape.svg');
+      }
+      &.om-cc-rose {
+        background-image: url('../img/flat/phone-landscape/rose-landscape.svg');
+      }
+      &.om-cc-silver {
+        background-image: url('../img/flat/phone-landscape/silver-landscape.svg');
+      }
+      &.om-cc-grey {
+        background-image: url('../img/flat/phone-landscape/space-grey-landscape.svg');
+      }
+      &.om-cc-dark {
+        background-image: url('../img/flat/phone-landscape/alternative-black-landscape.svg');
+      }
+      &.om-cc-light {
+        background-image: url('../img/flat/phone-landscape/alternative-white-landscape.svg');
+      }
+    }
+
+    &.om-cc-phone-portrait {
+      &.om-cc-gold,
+      &.om-cc-rose,
+      &.om-cc-silver,
+      &.om-cc-grey,
+      &.om-cc-dark,
+      &.om-cc-light {
+
+        @top: 11.762%;
+        @left: 6.5%;
+        @height: 75.65846999256942%;
+        @width: 86.41345885851983%;
+        @ratio: 1.777777;
+        @d: 0.8%;
+        @dY: @d/@ratio;
+        @radiusX: 1.2%;
+        @radiusY: @radiusX / @ratio;
+
+        &:after {
+          padding-top: 203.049%;
+        }
+
+        > .om-cc-device-content-inner {
+          top: @top;
+          left: @left;
+          height: @height;
+          width: @width;
+        }
+
+      }
+      &.om-cc-gold {
+        background-image: url('../img/flat/phone-portrait/gold.svg');
+      }
+      &.om-cc-rose {
+        background-image: url('../img/flat/phone-portrait/rose.svg');
+      }
+      &.om-cc-silver {
+        background-image: url('../img/flat/phone-portrait/silver.svg');
+      }
+      &.om-cc-grey {
+        background-image: url('../img/flat/phone-portrait/space-grey.svg');
+      }
+      &.om-cc-dark {
+        background-image: url('../img/flat/phone-portrait/alternative-black.svg');
+      }
+      &.om-cc-light {
+        background-image: url('../img/flat/phone-portrait/alternative-white.svg');
+      }
+    }
+
+    &.om-cc-tablet-landscape {
+
+      @top: 6.5%;
+      @left: 9%;
+      @height: 87.05256%;
+      @width: 81.83603642832728%;
+      @ratio: 1.33333333333333333333;
+      @dY: 0.5%;
+      @d: @dY/@ratio;
+      @radiusY: 1.2%;
+      @radiusX: @radiusY / @ratio;
+
+      &:after {
+        padding-top: 70.5%;
+      }
+
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        width: @width;
+        height: @height;
+      }
+
+      &.om-cc-dark {
+        background-image: url('../img/flat/tablet-landscape/black-landscape.svg');
+      }
+      &.om-cc-light {
+        background-image: url('../img/flat/tablet-landscape/white-landscape.svg');
+      }
+    }
+
+    &.om-cc-tablet-portrait {
+
+      @top: 9%;
+      @left: 6.35%;
+      @height: 81.83603642832728%;
+      @width: 87.05256%;
+      @ratio: 1.33333333333333333333;
+      @d: 0.5%;
+      @dY: @d/@ratio;
+      @radiusX: 1.2%;
+      @radiusY: @radiusX / @ratio;
+
+      &:after {
+        padding-top: 141.833%;
+      }
+
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        width: @width;
+        height: @height;
+      }
+
+      &.om-cc-dark {
+        background-image: url('../img/flat/tablet-portrait/black.svg');
+      }
+      &.om-cc-light {
+        background-image: url('../img/flat/tablet-portrait/white.svg');
+      }
+    }
+
+    &.om-cc-watch {
+      &.om-cc-blue,
+      &.om-cc-red,
+      &.om-cc-yellow,
+      &.om-cc-light,
+      &.om-cc-dark {
+        @top: 26.80748555734153%;
+        @left: 15.24225739848589%;
+        @height: 45.85888488918913%;
+        @width: 65.51961459050241%;
+        @ratio: 1.25;
+        &:after {
+          padding-top: 178.5902959394357%;
+        }
+        > .om-cc-device-content-inner {
+          top: @top;
+          left: @left;
+          width: @width;
+          height: @height;
+          border: none;
+          border-radius: 0;
+        }
+      }
+      &.om-cc-dark {
+        background-image: url('../img/flat/watch/alternative-black.svg');
+      }
+      &.om-cc-light {
+        background-image: url('../img/flat/watch/alternative-white.svg');
+      }
+      &.om-cc-blue {
+        background-image: url('../img/flat/watch/blue.svg');
+      }
+      &.om-cc-red {
+        background-image: url('../img/flat/watch/red.svg');
+      }
+      &.om-cc-yellow {
+        background-image: url('../img/flat/watch/yellow.svg');
+      }
+    }
+  }
+  &.om-cc-real {
+    > .om-cc-device-content-inner {
+      background: rgba(0, 0, 0, 1);
+    }
+
+    &.om-cc-laptop {
+      &.om-cc-alternative {
+        @top: 5.97042525%;
+        @left: 18.72130227%;
+        @height: 68.73134789069387%;
+        @width: 63.17956862%;
+        @ratio: 1.6;
+
+        &:after {
+          padding-top: 57.45034178904641%;
+        }
+        > .om-cc-device-content-inner {
+          top: @top;
+          left: @left;
+          height: @height;
+          width: @width;
+          border: none;
+          border-radius: 0;
+        }
+      }
+      &.om-cc-alternative {
+        background-image: url('../img/real/laptop/alternative-laptop.svg');
+      }
+    }
+
+    &.om-cc-laptop {
+      &.om-cc-gold,
+      &.om-cc-silver,
+      &.om-cc-grey {
+        @top: 7.336463253498693%;
+        @left: 12.36071683354257%;
+        @height: 81.99012364751533%;
+        @width: 75.30624852507096%;
+        @ratio: 1.6;
+
+        &:after {
+          padding-top: 57.4503404048676%;
+        }
+        > .om-cc-device-content-inner {
+          top: @top;
+          left: @left;
+          height: @height;
+          width: @width;
+          border: none;
+          border-radius: 0;
+        }
+      }
+      &.om-cc-gold {
+        background-image: url('../img/real/laptop/gold.svg');
+      }
+      &.om-cc-silver {
+        background-image: url('../img/real/laptop/silver.svg');
+      }
+      &.om-cc-grey {
+        background-image: url('../img/real/laptop/space-grey.svg');
+      }
+    }
+
+    &.om-cc-browser {
+
+      @top: 5.964526949129711%;
+      @left: 0;
+      @height: 94.05547305087029%;
+      @width: 100%;
+      @ratio: 1.3333333;
+
+      &:after {
+        padding-top: 79.75714568817547%;
+      }
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        height: @height;
+        width: @width;
+        border: none;
+        border-radius: 0;
+      }
+        background-image: url('../img/real/other/browser.svg');
+
+    }
+
+    &.om-cc-desktop {
+      @top: 4.979545360353979%;
+      @left: 4.15515625%;
+      @height: 64.18163433753316%;
+      @width: 91.51229166666667%;
+      @ratio: 1.77;
+
+      &:after {
+        padding-top: 80.20312604166667%;
+      }
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        height: @height;
+        width: @width;
+        border: none;
+        border-radius: 0;
+      }
+        background-image: url('../img/real/other/desktop.svg');
+
+    }
+
+    &.om-cc-display {
+      @top: 7.269304405879545%;
+      @left: 4.09640625%;
+      @height: 64.38846594728923%;
+      @width: 91.80723958333333%;
+      @ratio: 1.77;
+
+      &:after {
+        padding-top: 80.20312604166667%;
+      }
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        height: @height;
+        width: @width;
+        border: none;
+        border-radius: 0;
+      }
+        background-image: url('../img/real/other/display.svg');
+
+    }
+
+    &.om-cc-phone {
+      &.om-cc-rose,
+      &.om-cc-silver,
+      &.om-cc-grey,
+      &.om-cc-gold{
+
+        @top: 11.762%;
+        @left: 6.5%;
+        @height: 75.65846999256942%;
+        @width: 86.41345885851983%;
+        @ratio: 1.777777;
+        @d: 0.8%;
+        @dY: @d/@ratio;
+        @radiusX: 1.2%;
+        @radiusY: @radiusX / @ratio;
+
+        &:after {
+          padding-top: 203.049%;
+        }
+
+        > .om-cc-device-content-inner {
+          top: @top;
+          left: @left;
+          width: @width;
+          height: @height;
+        }
+
+        &.om-cc-rose {
+          background-image: url('../img/real/phone/rose.svg');
+        }
+        &.om-cc-silver {
+          background-image: url('../img/real/phone/silver.svg');
+        }
+        &.om-cc-grey {
+          background-image: url('../img/real/phone/space-grey.svg');
+        }
+        &.om-cc-gold {
+          background-image: url('../img/real/phone/gold.svg');
+        }
+      }
+    }
+
+    &.om-cc-phone-landscape {
+      &.om-cc-rose,
+      &.om-cc-silver,
+      &.om-cc-grey,
+      &.om-cc-gold {
+        @top: 6.47%;
+        @left: 11.762%;
+        @height: 86.41345885851983%;
+        @width: 75.65846999256942%;
+        @ratio: 1.777777;
+        @dY: 0.8%;
+        @d: @dY/@ratio;
+        @radiusY: 1.2%;
+        @radiusX: @radiusY / @ratio;
+
+        &:after {
+          padding-top: 49.249%;
+        }
+
+        > .om-cc-device-content-inner {
+          top: @top;
+          left: @left;
+          height: @height;
+          width: @width;
+        }
+
+      &.om-cc-rose {
+        background-image: url('../img/real/phone/rose-landscape.svg');
+      }
+      &.om-cc-silver {
+        background-image: url('../img/real/phone/silver-landscape.svg');
+      }
+      &.om-cc-grey {
+        background-image: url('../img/real/phone/space-grey-landscape.svg');
+      }
+      &.om-cc-gold {
+        background-image: url('../img/real/phone/gold-landscape.svg');
+      }
+      }
+    }
+
+    &.om-cc-tablet {
+      @top: 9%;
+      @left: 6.35%;
+      @height: 81.83603642832728%;
+      @width: 87.05256%;
+      @ratio: 1.33333333333333333333;
+      @d: 0.5%;
+      @dY: @d/@ratio;
+      @radiusX: 1.2%;
+      @radiusY: @radiusX / @ratio;
+
+      &:after {
+        padding-top: 141.833%;
+      }
+
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        width: @width;
+        height: @height;
+      }
+
+      &.om-cc-gold {
+        background-image: url('../img/real/tablet/gold.svg');
+      }
+      &.om-cc-black {
+        background-image: url('../img/real/tablet/black.svg');
+      }
+      &.om-cc-silver {
+        background-image: url('../img/real/tablet/silver.svg');
+      }
+    }
+
+    &.om-cc-tablet-landscape {
+      @top: 6.5%;
+      @left: 9%;
+      @height: 87.05256%;
+      @width: 81.83603642832728%;
+      @ratio: 1.33333333333333333333;
+      @dY: 0.5%;
+      @d: @dY/@ratio;
+      @radiusY: 1.2%;
+      @radiusX: @radiusY / @ratio;
+
+      &:after {
+        padding-top: 70.5%;
+      }
+
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        width: @width;
+        height: @height;
+      }
+
+      &.om-cc-black {
+        background-image: url('../img/real/tablet/black-landscape.svg');
+      }
+      &.om-cc-gold {
+        background-image: url('../img/real/tablet/gold-landscape.svg');
+      }
+      &.om-cc-silver {
+        background-image: url('../img/real/tablet/silver-landscape.svg');
+      }
+    }
+
+    &.om-cc-watch {
+      @top: 26.80748555734153%;
+      @left: 16.24225739848589%;
+      @height: 45.85888488918913%;
+      @width: 65.51961459050241%;
+      @ratio: 1.25;
+      &:after {
+        padding-top: 178.5902959394357%;
+      }
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        width: @width;
+        height: @height;
+        border: none;
+        border-radius: 0;
+      }
+
+      &.om-cc-blue {
+        background-image: url('../img/real/watch/blue.svg');
+      }
+      &.om-cc-red {
+        background-image: url('../img/real/watch/red.svg');
+      }
+      &.om-cc-steel {
+        background-image: url('../img/real/watch/steel.svg');
+      }
+      &.om-cc-green {
+        background-image: url('../img/real/watch/yellow.svg');
+      }
+    }
+  }
+
+  &.om-cc-colorful {
+    > .om-cc-device-content-inner {
+      background-color: rgba(128, 128, 128, 0.2);
+      border: none;
+      border-radius: 0;
+    }
+    background-color: #333333;
+
+    &.om-cc-watch {
+      margin: 35% 3% 32% 3%;
+      border-radius: ~"20% / 17.1%";
+
+      &:before {
+        display: block;
+        content: '';
+        height: 166%;
+        width: 54%;
+
+        position: absolute;
+        top: -33%;
+        left: 23%;
+      }
+      @top:  11.80748556%;
+      @left: 15.24225739848589%;
+      @height: 74.46649584220655%;
+      @width: 69.70012413623331%;
+      @ratio: 1.25;
+
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        width: @width;
+        height: @height;
+        z-index: 10;
+      }
+
+      &:after {
+        padding-top: 117%;
+      }
+    }
+
+    &.om-cc-phone {
+      @top: 11.762%;
+      @left: 6.5%;
+      @height: 75.65846999256942%;
+      @width: 86.41345885851983%;
+      @ratio: 1.777777;
+      @d: 0.8%;
+      @dY: @d/@ratio;
+      @radiusX: 1.2%;
+      @radiusY: @radiusX / @ratio;
+
+      &:after {
+        padding-top: 203.049%;
+      }
+
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        height: @height;
+        width: @width;
+      }
+
+      border-radius: ~"13.48% / 6.54%";
+    }
+
+    &.om-cc-tablet {
+      @top: 9%;
+      @left: 6.35%;
+      @height: 81.83603642832728%;
+      @width: 87.05256%;
+      @ratio: 1.33333333333333333333;
+      @d: 0.5%;
+      @dY: @d/@ratio;
+      @radiusX: 1.2%;
+      @radiusY: @radiusX / @ratio;
+
+      &:after {
+        padding-top: 141.833%;
+      }
+
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        width: @width;
+        height: @height;
+      }
+      border-radius: ~"7.57% / 5.1%";
+
+    }
+
+    &.om-cc-tablet-landscape {
+
+      @top: 6.5%;
+      @left: 9%;
+      @height: 87.05256%;
+      @width: 81.83603642832728%;
+      @ratio: 1.33333333333333333333;
+      @dY: 0.5%;
+      @d: @dY/@ratio;
+      @radiusY: 1.2%;
+      @radiusX: @radiusY / @ratio;
+
+      &:after {
+        padding-top: 70.5%;
+      }
+
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        width: @width;
+        height: @height;
+      }
+
+
+      border-radius: ~"5.1% / 7.57%";
+
+    }
+
+    &.om-cc-browser {
+      //background: #ccc;
+      border-radius: ~"0.75% / 1%";
+      @top: 5.964526949129711%;
+      @left: 0;
+      @height: 94.03547305087029%;
+      @width: 100%;
+      @ratio: 1.3333333;
+
+      &:after {
+        padding-top: 79.75714568817547%;
+      }
+      > .om-cc-device-content-inner {
+        top: @top;
+        left: @left;
+        height: @height;
+        width: @width;
+      }
+
+    }
+
+  }
+
+}
+
+
+

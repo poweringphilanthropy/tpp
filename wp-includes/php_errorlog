@@ -1,0 +1,24 @@
+[29-Jul-2016 01:56:39 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/philant0/public_html/wp-includes/nav-menu-template.php on line 16
+[29-Jul-2016 01:56:42 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/philant0/public_html/wp-includes/class-walker-page-dropdown.php on line 17
+[29-Jul-2016 01:56:59 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/philant0/public_html/wp-includes/class-walker-page.php on line 17
+[29-Jul-2016 01:57:52 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/philant0/public_html/wp-includes/class-walker-comment.php on line 17
+[29-Jul-2016 01:57:55 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/widgets/class-wp-widget-pages.php' (include_path='.:/usr/local/php56/pear') in /home/philant0/public_html/wp-includes/default-widgets.php on line 11
+[29-Jul-2016 01:57:57 CST6CDT] PHP Fatal error:  Call to undefined function add_filter() in /home/philant0/public_html/wp-includes/default-filters.php on line 17
+[29-Jul-2016 01:58:42 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php' (include_path='.:/usr/local/php56/pear') in /home/philant0/public_html/wp-includes/class-wp-customize-panel.php on line 389
+[29-Jul-2016 01:58:52 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/philant0/public_html/wp-includes/ms-default-filters.php on line 16
+[10-Oct-2016 17:09:25 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/philant0/public_html/wp-includes/class-walker-page-dropdown.php on line 17
+[10-Oct-2016 17:09:27 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/philant0/public_html/wp-includes/nav-menu-template.php on line 16
+[10-Oct-2016 17:09:33 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/philant0/public_html/wp-includes/class-walker-page.php on line 17
+[10-Oct-2016 17:10:00 CST6CDT] PHP Fatal error:  Class 'Walker' not found in /home/philant0/public_html/wp-includes/class-walker-comment.php on line 17
+[10-Oct-2016 17:10:09 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/widgets/class-wp-widget-pages.php' (include_path='.:/usr/local/php56/pear') in /home/philant0/public_html/wp-includes/default-widgets.php on line 11
+[10-Oct-2016 17:10:12 CST6CDT] PHP Fatal error:  Call to undefined function add_filter() in /home/philant0/public_html/wp-includes/default-filters.php on line 17
+[28-Nov-2016 20:58:42 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/philant0/public_html/wp-includes/registration.php on line 7
+[28-Nov-2016 21:30:51 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/philant0/public_html/wp-includes/registration.php on line 7
+[28-Nov-2016 22:56:24 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/philant0/public_html/wp-includes/registration.php on line 7
+[29-Nov-2016 11:05:14 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/philant0/public_html/wp-includes/registration.php on line 7
+[29-Nov-2016 11:48:59 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/philant0/public_html/wp-includes/registration.php on line 7
+[28-Dec-2016 17:38:52 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/poweri33/public_html/philanthropyproject.com/wp-includes/registration-functions.php on line 7
+[08-Jan-2017 12:02:15 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/poweri33/public_html/philanthropyproject.com/wp-includes/session.php on line 8
+[08-Jan-2017 13:07:07 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php56/pear') in /home/poweri33/public_html/philanthropyproject.com/wp-includes/functions.php on line 8
+[09-Mar-2017 21:18:22 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/poweri33/public_html/philanthropyproject.com/wp-includes/rss-functions.php on line 8
+[25-Mar-2017 03:45:09 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/poweri33/public_html/philanthropyproject.com/wp-includes/registration-functions.php on line 7

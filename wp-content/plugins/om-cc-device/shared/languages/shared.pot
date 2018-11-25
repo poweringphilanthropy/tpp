@@ -1,0 +1,386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Creative Plugins Shared 1.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-21 09:16+0000\n"
+"PO-Revision-Date: 2016-10-21 09:16+0000\n"
+"Last-Translator: Openmarco\n"
+"Language: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"MIME-Version: 1.0\n"
+
+#: lib\api\posts.php:35
+msgid "Title"
+msgstr ""
+
+#: lib\api\posts.php:36
+msgid "Excerpt"
+msgstr ""
+
+#: lib\api\posts.php:37
+msgid "Author"
+msgstr ""
+
+#: lib\api\posts.php:38
+msgid "Date"
+msgstr ""
+
+#: lib\api\validate.php:18
+msgid "Post type not exists"
+msgstr ""
+
+#: lib\common\params.php:293
+msgid "There are no taxonomies within this post type"
+msgstr ""
+
+#: lib\common\params.php:294
+msgid "Choose terms..."
+msgstr ""
+
+#: lib\common\params.php:298
+msgid "Choose posts..."
+msgstr ""
+
+#: lib\data\options.php:50
+msgid "Creative Plugins Settings"
+msgstr ""
+
+#: lib\data\options.php:51
+msgid "Creative Plugins"
+msgstr ""
+
+#: lib\data\options.php:95
+msgid "Save Changes"
+msgstr ""
+
+#: lib\data\post-type.php:90
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: lib\data\post-type.php:91
+#, php-format
+msgid "Preview %s"
+msgstr ""
+
+#: lib\data\post-type.php:94
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: lib\data\post-type.php:160
+msgid "Add New"
+msgstr ""
+
+#: lib\data\post-type.php:161
+#, php-format
+msgid "Add New %1$s"
+msgstr ""
+
+#: lib\data\post-type.php:162
+#, php-format
+msgid "Edit %1$s"
+msgstr ""
+
+#: lib\data\post-type.php:163
+#, php-format
+msgid "New %1$s"
+msgstr ""
+
+#: lib\data\post-type.php:164
+#, php-format
+msgid "View %1$s"
+msgstr ""
+
+#: lib\data\post-type.php:165
+#, php-format
+msgid "Search %2$s"
+msgstr ""
+
+#: lib\data\post-type.php:166
+#, php-format
+msgid "No %2$s found"
+msgstr ""
+
+#: lib\data\post-type.php:167
+#, php-format
+msgid "No %2$s found in Trash"
+msgstr ""
+
+#: lib\data\post-type.php:168
+#, php-format
+msgid "Parent %1$s:"
+msgstr ""
+
+#: lib\data\post-type.php:170
+#, php-format
+msgid "All %2$s"
+msgstr ""
+
+#: lib\lightbox\common.php:13
+msgid "Lightbox"
+msgstr ""
+
+#: lib\lightbox\common.php:17
+msgid "Colors"
+msgstr ""
+
+#: lib\lightbox\common.php:21
+msgid "Background"
+msgstr ""
+
+#: lib\lightbox\common.php:27
+msgid "Image background"
+msgstr ""
+
+#: lib\lightbox\common.php:33
+msgid "Buttons"
+msgstr ""
+
+#: lib\lightbox\common.php:38
+msgid "Arrows"
+msgstr ""
+
+#: lib\lightbox\common.php:43
+msgid "Arrow background"
+msgstr ""
+
+#: lib\lightbox\common.php:49
+msgid "Arrow background hover"
+msgstr ""
+
+#: lib\lightbox\common.php:55
+msgid "Counter"
+msgstr ""
+
+#: lib\lightbox\common.php:60
+msgid "Caption"
+msgstr ""
+
+#: lib\lightbox\common.php:65
+msgid "Share link"
+msgstr ""
+
+#: lib\lightbox\common.php:70
+msgid "Share link background"
+msgstr ""
+
+#: lib\lightbox\common.php:76
+msgid "Share overlay"
+msgstr ""
+
+#: lib\lightbox\common.php:84
+msgid "General settings"
+msgstr ""
+
+#: lib\lightbox\common.php:88
+msgid "Fullscreen button"
+msgstr ""
+
+#: lib\lightbox\common.php:93
+msgid "Zoom button"
+msgstr ""
+
+#: lib\lightbox\common.php:98
+msgid "Download button"
+msgstr ""
+
+#: lib\lightbox\common.php:103
+msgid "Facebook share"
+msgstr ""
+
+#: lib\lightbox\common.php:108
+msgid "Twitter share"
+msgstr ""
+
+#: lib\lightbox\common.php:113
+msgid "Pinterest share"
+msgstr ""
+
+#: lib\lightbox\common.php:118
+msgid "Tumblr share"
+msgstr ""
+
+#: lib\lightbox\common.php:128
+msgid "VK share"
+msgstr ""
+
+#: lib\lightbox\common.php:133
+msgid "Reddit share"
+msgstr ""
+
+#: lib\lightbox\common.php:138
+msgid "Disable titles"
+msgstr ""
+
+#: lib\lightbox\renderer.php:24
+msgid "Download image"
+msgstr ""
+
+#: lib\lightbox\renderer.php:25
+msgid "Share on Facebook"
+msgstr ""
+
+#: lib\lightbox\renderer.php:26
+msgid "Tweet"
+msgstr ""
+
+#: lib\lightbox\renderer.php:27
+msgid "Pin it"
+msgstr ""
+
+#: lib\lightbox\renderer.php:28
+msgid "Share on Tumblr"
+msgstr ""
+
+#: lib\lightbox\renderer.php:29
+msgid "Share on Google+"
+msgstr ""
+
+#: lib\lightbox\renderer.php:30
+msgid "Share on VK"
+msgstr ""
+
+#: lib\lightbox\renderer.php:31
+msgid "Reddit this"
+msgstr ""
+
+#: lib\utils\grid.php:106
+msgid "Top Left"
+msgstr ""
+
+#: lib\utils\grid.php:107
+msgid "Top Center"
+msgstr ""
+
+#: lib\utils\grid.php:108
+msgid "Top Right"
+msgstr ""
+
+#: lib\utils\grid.php:109
+msgid "Center Left"
+msgstr ""
+
+#: lib\utils\grid.php:110
+msgid "Center"
+msgstr ""
+
+#: lib\utils\grid.php:111
+msgid "Center Right"
+msgstr ""
+
+#: lib\utils\grid.php:112
+msgid "Bottom Left"
+msgstr ""
+
+#: lib\utils\grid.php:113
+msgid "Bottom Center"
+msgstr ""
+
+#: lib\utils\grid.php:114
+msgid "Bottom Right"
+msgstr ""
+
+#: lib\utils\grid.php:125
+#: lib\utils\grid.php:197
+#: lib\utils\grid.php:208
+msgid "None"
+msgstr ""
+
+#: lib\utils\grid.php:126
+msgid "Up Left"
+msgstr ""
+
+#: lib\utils\grid.php:127
+msgid "Up"
+msgstr ""
+
+#: lib\utils\grid.php:128
+msgid "Up Right"
+msgstr ""
+
+#: lib\utils\grid.php:129
+msgid "Right"
+msgstr ""
+
+#: lib\utils\grid.php:130
+msgid "Left"
+msgstr ""
+
+#: lib\utils\grid.php:131
+msgid "Down Left"
+msgstr ""
+
+#: lib\utils\grid.php:132
+msgid "Down"
+msgstr ""
+
+#: lib\utils\grid.php:133
+msgid "Down Right"
+msgstr ""
+
+#: lib\utils\grid.php:153
+msgid "Visible"
+msgstr ""
+
+#: lib\utils\grid.php:158
+msgid "Hidden"
+msgstr ""
+
+#: lib\utils\grid.php:163
+msgid "Static"
+msgstr ""
+
+#: lib\utils\grid.php:168
+msgid "Show right away and hide on mouseover"
+msgstr ""
+
+#: lib\utils\grid.php:173
+msgid "Show on mouseover"
+msgstr ""
+
+#: lib\utils\grid.php:187
+msgid "Move from the initial position"
+msgstr ""
+
+#: lib\utils\grid.php:188
+msgid "Move to the initial position"
+msgstr ""
+
+#: lib\utils\grid.php:198
+msgid "In"
+msgstr ""
+
+#: lib\utils\grid.php:199
+msgid "Out"
+msgstr ""
+
+#: lib\utils\grid.php:209
+msgid "Clockwise"
+msgstr ""
+
+#: lib\utils\grid.php:210
+msgid "Counterclockwise"
+msgstr ""
+
+#: lib\utils\grid.php:631
+msgid "Inherit from desktop"
+msgstr ""
+
+#: lib\utils\grid.php:636
+msgid "Inherit from laptop"
+msgstr ""
+
+#: lib\utils\grid.php:641
+msgid "Inherit from tablet"
+msgstr ""
+
+#: lib\utils\grid.php:646
+msgid "Inherit from phone"
+msgstr ""
+
+#: lib\data\meta-box\image-control.php:49
+msgid "Add image"
+msgstr ""

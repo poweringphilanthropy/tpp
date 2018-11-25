@@ -1,0 +1,85 @@
+.om-cc-device-content-wrapper {
+  .om-cc-middle &,
+  .om-cc-bottom & {
+    display: table;
+
+    height: 100%;
+    width: 100%;
+
+    .om-cc-device-content {
+      display: table-cell;
+    }
+
+    .flexboxlegacy & {
+      display: flex;
+
+      > .om-cc-device-content {
+        display: block;
+        width: 100%;
+        vertical-align: initial;
+      }
+    }
+  }
+
+  .om-cc-middle & .om-cc-device-content {
+    vertical-align: middle;
+
+    .flexboxlegacy & {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+
+  .om-cc-bottom & .om-cc-device-content {
+    vertical-align: bottom;
+
+    .flexboxlegacy & {
+      margin-top: auto;
+      margin-bottom: 0;
+    }
+  }
+
+  .om-cc-stretch & .om-cc-device-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    > div {
+      &:first-child,
+      &:last-child {
+        height: 100%;
+        margin-bottom: 0;
+      }
+    }
+    
+    > .wpb_single_image {
+      &:first-child,
+      &:last-child {
+        .vc_figure,
+        .vc_single_image-wrapper,
+        .vc_single_image-img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .om-cc-device-content {
+    > div {
+      &:last-child {
+        .grid {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    > .om-cc-social-links,
+    > .wpb_content_element,
+    > .vc_tta-container,
+    > .vc_icon_element-outer,
+    > .menu-menu-container {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.om-cc-image-preview {
+    margin: 10px 0;
+}
+
+.om-cc-image-preview .thumbnail {
+    width: 150px;
+    position: relative;
+}
+
+.om-cc-image-preview .thumbnail img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #cccccc;
+}
+
+.om-cc-image-preview .thumbnail i.remove {
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.om-cc-image-preview .thumbnail span {
+    color: #0073aa;
+    cursor: pointer;
+}
+
+.om-cc-image-preview .thumbnail span:hover {
+    color: #00a0d2;
+}

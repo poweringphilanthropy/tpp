@@ -1,0 +1,292 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: om-cc-device 1.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-21 09:16+0000\n"
+"PO-Revision-Date: 2016-10-21 09:16+0000\n"
+"Last-Translator: Openmarco\n"
+"Language: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"MIME-Version: 1.0\n"
+
+#: inc\element.php:20
+msgid "General"
+msgstr ""
+
+#: inc\element.php:23
+msgid "Colors Creative"
+msgstr ""
+
+#: inc\element.php:24
+msgid "Creative Devices Mock-ups"
+msgstr ""
+
+#: inc\element.php:25
+msgid "The most creative way to display content in devices mock-ups"
+msgstr ""
+
+#: inc\element.php:35
+msgid "Device type"
+msgstr ""
+
+#: inc\element.php:37
+msgid "Flat"
+msgstr ""
+
+#: inc\element.php:38
+msgid "Real"
+msgstr ""
+
+#: inc\element.php:39
+msgid "Colorful"
+msgstr ""
+
+#: inc\element.php:48
+#: inc\element.php:164
+#: inc\element.php:289
+msgid "Select mockup"
+msgstr ""
+
+#: inc\element.php:49
+msgid "Aspect ratio: Browser - 4/3, Desktop - 16/9, Laptop - 16/10, Phone - 16/9, Tablet - 4/3, Watch - 5/4"
+msgstr ""
+
+#: inc\element.php:51
+#: inc\element.php:174
+#: inc\element.php:295
+msgid "Browser"
+msgstr ""
+
+#: inc\element.php:52
+#: inc\element.php:175
+msgid "Desktop"
+msgstr ""
+
+#: inc\element.php:53
+#: inc\element.php:168
+msgid "Laptop"
+msgstr ""
+
+#: inc\element.php:54
+#: inc\element.php:170
+msgid "Phone Landscape"
+msgstr ""
+
+#: inc\element.php:55
+msgid "Phone Portrait"
+msgstr ""
+
+#: inc\element.php:56
+msgid "Tablet Landscape"
+msgstr ""
+
+#: inc\element.php:57
+msgid "Tablet Portrait"
+msgstr ""
+
+#: inc\element.php:58
+#: inc\element.php:173
+#: inc\element.php:296
+msgid "Watch"
+msgstr ""
+
+#: inc\element.php:70
+#: inc\element.php:90
+#: inc\element.php:107
+#: inc\element.php:126
+#: inc\element.php:145
+#: inc\element.php:188
+#: inc\element.php:205
+#: inc\element.php:222
+#: inc\element.php:239
+#: inc\element.php:255
+#: inc\element.php:271
+#: inc\element.php:308
+msgid "Select color"
+msgstr ""
+
+#: inc\element.php:72
+#: inc\element.php:92
+#: inc\element.php:109
+#: inc\element.php:128
+#: inc\element.php:147
+msgid "Dark"
+msgstr ""
+
+#: inc\element.php:73
+#: inc\element.php:93
+#: inc\element.php:110
+#: inc\element.php:129
+#: inc\element.php:148
+msgid "Light"
+msgstr ""
+
+#: inc\element.php:94
+msgid "Alternative Dark"
+msgstr ""
+
+#: inc\element.php:95
+msgid "Alternative Light"
+msgstr ""
+
+#: inc\element.php:111
+#: inc\element.php:130
+#: inc\element.php:190
+#: inc\element.php:207
+#: inc\element.php:224
+#: inc\element.php:242
+#: inc\element.php:258
+msgid "Gold"
+msgstr ""
+
+#: inc\element.php:112
+#: inc\element.php:131
+#: inc\element.php:208
+#: inc\element.php:225
+msgid "Rose"
+msgstr ""
+
+#: inc\element.php:113
+#: inc\element.php:132
+#: inc\element.php:191
+#: inc\element.php:209
+#: inc\element.php:226
+#: inc\element.php:243
+#: inc\element.php:259
+msgid "Silver"
+msgstr ""
+
+#: inc\element.php:114
+#: inc\element.php:133
+#: inc\element.php:192
+#: inc\element.php:210
+#: inc\element.php:227
+msgid "Space Grey"
+msgstr ""
+
+#: inc\element.php:149
+#: inc\element.php:273
+msgid "Blue"
+msgstr ""
+
+#: inc\element.php:150
+#: inc\element.php:274
+msgid "Red"
+msgstr ""
+
+#: inc\element.php:151
+msgid "Yellow"
+msgstr ""
+
+#: inc\element.php:165
+msgid "Aspect ratio: Browser - 4/3, Display - 16/9, Desktop - 16/9, Laptop - 16/10, Phone - 16/9, Tablet - 4/3, Watch - 5/4"
+msgstr ""
+
+#: inc\element.php:169
+msgid "Phone "
+msgstr ""
+
+#: inc\element.php:171
+#: inc\element.php:293
+msgid "Tablet"
+msgstr ""
+
+#: inc\element.php:172
+msgid "Tablet  Landscape"
+msgstr ""
+
+#: inc\element.php:176
+msgid "Display"
+msgstr ""
+
+#: inc\element.php:193
+msgid "Alternative"
+msgstr ""
+
+#: inc\element.php:241
+#: inc\element.php:257
+msgid "Black"
+msgstr ""
+
+#: inc\element.php:275
+msgid "Steel"
+msgstr ""
+
+#: inc\element.php:276
+msgid "Green"
+msgstr ""
+
+#: inc\element.php:290
+msgid "Aspect ratio: Browser - 4/3, Phone - 16/9, Tablet - 4/3, Watch - 5/4"
+msgstr ""
+
+#: inc\element.php:292
+msgid "Phone"
+msgstr ""
+
+#: inc\element.php:294
+msgid "Tablet landscape"
+msgstr ""
+
+#: inc\element.php:324
+msgid "Select background color"
+msgstr ""
+
+#: inc\element.php:337
+msgid "Content position"
+msgstr ""
+
+#: inc\element.php:339
+msgid "Top"
+msgstr ""
+
+#: inc\element.php:340
+msgid "Middle"
+msgstr ""
+
+#: inc\element.php:341
+msgid "Bottom"
+msgstr ""
+
+#: inc\element.php:342
+msgid "Stretch"
+msgstr ""
+
+#: inc\element.php:350
+msgid "CSS Animation"
+msgstr ""
+
+#: inc\element.php:352
+msgid "No"
+msgstr ""
+
+#: inc\element.php:353
+msgid "Top to bottom"
+msgstr ""
+
+#: inc\element.php:354
+msgid "Bottom to top"
+msgstr ""
+
+#: inc\element.php:355
+msgid "Left to right"
+msgstr ""
+
+#: inc\element.php:356
+msgid "Right to left"
+msgstr ""
+
+#: inc\element.php:357
+msgid "Appear from center"
+msgstr ""
+
+#: inc\element.php:362
+msgid "Design"
+msgstr ""
+
+#: inc\element.php:364
+msgid "Css"
+msgstr ""

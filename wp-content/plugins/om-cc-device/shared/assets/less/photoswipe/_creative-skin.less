@@ -1,0 +1,408 @@
+/* Base */
+.pswp__bg {
+  background: @photoswipe-bg;
+}
+
+.pswp__container {
+  .no-touch & {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .pswp-dragging & {
+    transition: none;
+  }
+}
+
+.pswp__ui {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1550;
+}
+
+.pswp__top-bar {
+  height: 44px;
+  width: 100%;
+  //
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.pswp__top-bar,
+.pswp__caption {
+  background: transparent;
+
+  .pswp--zoomed-in & {
+    background: @photoswipe-bars-zoomed;
+  }
+}
+
+/* Button */
+.pswp__button {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  //
+  position: relative;
+  float: right;
+  //
+  background: none;
+  border: 0;
+  box-shadow: none;
+  color: @photoswipe-btn;
+  cursor: pointer;
+  font-size: 21px;
+  opacity: 0.75;
+  //
+  transition: opacity 0.2s;
+
+  &:focus,
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    outline: none;
+    opacity: 0.9;
+  }
+
+  &::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+}
+
+.pswp__button--close {
+  margin-left: 30px;
+  //
+  //background: #fff;
+  //color: #000;
+  font-size: 26px;
+}
+
+// pswp__ui--over-close class it added when mouse is over element that should close gallery
+.pswp__ui--over-close {
+  .pswp__button--close {
+    opacity: 1;
+  }
+}
+
+.pswp__button--fs {
+  display: none;
+}
+
+.pswp--supports-fs .pswp__button--fs {
+  display: block;
+}
+
+.pswp--fs .pswp__button--fs {
+  &:before {
+    content: '\f482';
+  }
+}
+
+.pswp__button--zoom {
+  display: none;
+}
+
+.pswp--zoom-allowed .pswp__button--zoom {
+  display: block;
+}
+
+.pswp--zoomed-in .pswp__button--zoom {
+  &:before {
+    content: '\f462';
+  }
+}
+
+.pswp__button--arrow--left,
+.pswp__button--arrow--right {
+  width: 48px;
+  height: 48px;
+  margin-top: -50px;
+  //
+  position: absolute;
+  top: 50%;
+  //
+  background: @photoswipe-arrows-bg;
+  color: @photoswipe-arrows-color;
+  font-size: 18px;
+
+  &,
+  &:active {
+    opacity: 1;
+  }
+  // no arrows on touch screens
+  .pswp--touch & {
+    visibility: hidden;
+  }
+  // pswp--has_mouse class is added only when two subsequent mousemove events occur
+  .pswp--has_mouse & {
+    visibility: visible;
+  }
+}
+
+.pswp__button--arrow--left {
+  left: 44px;
+}
+
+.pswp__button--arrow--right {
+  right: 44px;
+}
+
+/* Share */
+.pswp__counter,
+.pswp__share-modal {
+  user-select: none;
+}
+
+.pswp__share-modal {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  opacity: 0;
+  //
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1600;
+  //
+  background: @photoswipe-share-overlay;
+  //
+  transition: opacity 0.25s ease-out;
+  will-change: opacity;
+
+  .pswp__share-tooltip {
+    display: block;
+    width: auto;
+    right: 44px;
+    //
+    position: absolute;
+    z-index: 1620;
+    top: 56px;
+    //
+    transform: translateY(6px);
+    transition: transform 0.25s;
+    backface-visibility: hidden;
+    will-change: transform;
+
+    a {
+      display: block;
+      padding: 8px 12px;
+      //
+      background: @photoswipe-share-btn-bg;
+      border-bottom: 0 none;
+      color: @photoswipe-share-btn-color;
+      font-size: 14px;
+      line-height: 18px;
+      //
+      transition: all 0.25s;
+
+      .pswp--touch & {
+        padding: 16px 12px;
+      }
+
+      span {
+        display: inline-block;
+        width: 14px;
+        margin-right: 8px;
+        //
+        line-height: 14px;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+  }
+
+  .pswp__share--facebook {
+    &:hover,
+    &:focus {
+      background: #3e5c9a;
+      color: #fff;
+    }
+  }
+
+  .pswp__share--twitter {
+    &:hover,
+    &:focus {
+      background: #55acee;
+      color: #fff;
+    }
+  }
+
+  .pswp__share--pinterest {
+    &:hover,
+    &:focus {
+      background: #bd2126;
+      color: #fff;
+    }
+  }
+
+  .pswp__share--google-plus {
+    &:hover,
+    &:focus {
+      background: #dd4b38;
+      color: #fff;
+    }
+  }
+
+  .pswp__share--vk {
+    &:hover,
+    &:focus {
+      background: #567ca4; //#6d8cb0
+      color: #fff;
+    }
+  }
+
+  .pswp__share--tumblr {
+    &:hover,
+    &:focus {
+      background: #2c4762;
+      color: #fff;
+    }
+  }
+
+  .pswp__share--reddit {
+    &:hover,
+    &:focus {
+      background: #cee3f8;
+      color: #000;
+    }
+  }
+
+  .pswp__share--download {
+    &:hover,
+    &:focus {
+      background: #333;
+      color: #fff;
+    }
+  }
+}
+
+.pswp__share-modal {
+  &.pswp__share-modal--fade-in {
+    opacity: 1;
+
+    .pswp__share-tooltip {
+      transform: translateY(0);
+    }
+  }
+}
+
+.pswp__share-modal--hidden {
+  display: none;
+}
+
+/* Index indicator ("1 of X" counter) */
+.pswp__counter {
+  height: 44px;
+  padding: 0 10px;
+  //
+  position: absolute;
+  left: 0;
+  top: 0;
+  //
+  color: @photoswipe-counter;
+  font-size: 13px;
+  line-height: 44px;
+  opacity: 0.75;
+}
+
+/* Caption */
+.pswp__caption {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 0;
+  //
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  //
+  color: @photoswipe-caption;
+  text-align: center;
+
+  small {
+    opacity: 0.8;
+  }
+}
+
+.pswp__caption__center {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 10px;
+  //
+  font-size: 13px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.pswp__caption--empty {
+  display: none;
+}
+
+// Fake caption element, used to calculate height of next/prev image
+.pswp__caption--fake {
+  visibility: hidden;
+}
+
+/* Loading indicator */
+.pswp__preloader {
+  display: none;
+  visibility: hidden;
+}
+
+/* Additional */
+.pswp__caption,
+.pswp__top-bar,
+.pswp--has_mouse .pswp__button--arrow--left,
+.pswp--has_mouse .pswp__button--arrow--right {
+  backface-visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+/*
+    pswp__ui--idle class is added when mouse isn't moving for several seconds
+    (JS option timeToIdle)
+*/
+.pswp__ui--idle {
+  .pswp__top-bar,
+  .pswp__button--arrow--left,
+  .pswp__button--arrow--right {
+    opacity: 0;
+  }
+}
+
+/*
+    pswp__ui--hidden class is added when controls are hidden
+    e.g. when user taps to toggle visibility of controls
+*/
+.pswp__ui--hidden {
+  .pswp__top-bar,
+  .pswp__caption,
+  .pswp__button--arrow--left,
+  .pswp__button--arrow--right {
+    /* Force paint & create composition layer for controls. */
+    opacity: 0.001;
+  }
+}
+
+/* pswp__ui--one-slide class is added when there is just one item in gallery */
+.pswp__ui--one-slide {
+  .pswp__button--arrow--left,
+  .pswp__button--arrow--right,
+  .pswp__counter {
+    display: none;
+  }
+}
+
+.pswp__element--disabled {
+  display: none !important;
+}
+
+.pswp--minimal--dark .pswp__top-bar {
+  background: none;
+}

@@ -1,0 +1,158 @@
+.om-cc-arrow-up,
+.om-cc-arrow-down,
+.om-cc-arrow-left,
+.om-cc-arrow-right {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  vertical-align: sub;
+}
+.om-cc-arrow-up,
+.om-cc-arrow-down,
+.om-cc-arrow-left,
+.om-cc-arrow-right,
+.om-cc-arrow-up:after,
+.om-cc-arrow-down:after,
+.om-cc-arrow-left:after,
+.om-cc-arrow-right:after {
+  -moz-transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.4, 1.4);
+  -o-transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.4, 1.4);
+  -webkit-transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.4, 1.4);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.4, 1.4);
+}
+.om-cc-arrow-up:before,
+.om-cc-arrow-down:before,
+.om-cc-arrow-left:before,
+.om-cc-arrow-right:before,
+.om-cc-arrow-up:after,
+.om-cc-arrow-down:after,
+.om-cc-arrow-left:after,
+.om-cc-arrow-right:after {
+  display: block;
+  content: '';
+  position: absolute;
+}
+.om-cc-arrow-up:after,
+.om-cc-arrow-down:after,
+.om-cc-arrow-left:after,
+.om-cc-arrow-right:after {
+  border: 5px solid;
+}
+.om-cc-arrow-up,
+.om-cc-arrow-down {
+  width: 1em;
+}
+.om-cc-arrow-up:before,
+.om-cc-arrow-down:before {
+  left: 0.5em;
+  height: 100%;
+  border-right: 1px solid;
+}
+.om-cc-arrow-up:after,
+.om-cc-arrow-down:after {
+  margin-left: -5px;
+  left: 0.5em;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+:hover > .om-cc-arrow-up,
+:hover > .om-cc-arrow-down,
+:focus > .om-cc-arrow-up,
+:focus > .om-cc-arrow-down {
+  -moz-transform: scaleY(2);
+  -ms-transform: scaleY(2);
+  -o-transform: scaleY(2);
+  -webkit-transform: scaleY(2);
+  transform: scaleY(2);
+}
+:hover > .om-cc-arrow-up:after,
+:hover > .om-cc-arrow-down:after,
+:focus > .om-cc-arrow-up:after,
+:focus > .om-cc-arrow-down:after {
+  -moz-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  -o-transform: scaleY(0.5);
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+.om-cc-arrow-down {
+  -moz-transform-origin: top;
+  -ms-transform-origin: top;
+  -o-transform-origin: top;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+}
+.om-cc-arrow-down:after {
+  bottom: -5px;
+  border-bottom-color: transparent;
+}
+.om-cc-arrow-up {
+  -moz-transform-origin: bottom;
+  -ms-transform-origin: bottom;
+  -o-transform-origin: bottom;
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;
+}
+.om-cc-arrow-up:after {
+  top: -5px;
+  border-top-color: transparent;
+}
+.om-cc-arrow-left,
+.om-cc-arrow-right {
+  width: 1.5em;
+}
+.om-cc-arrow-left:before,
+.om-cc-arrow-right:before {
+  top: 0.5em;
+  width: 100%;
+  border-bottom: 1px solid;
+}
+.om-cc-arrow-left:after,
+.om-cc-arrow-right:after {
+  margin-top: -5px;
+  top: 0.5em;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+}
+:hover > .om-cc-arrow-left,
+:hover > .om-cc-arrow-right,
+:focus > .om-cc-arrow-left,
+:focus > .om-cc-arrow-right {
+  -moz-transform: scaleX(2);
+  -ms-transform: scaleX(2);
+  -o-transform: scaleX(2);
+  -webkit-transform: scaleX(2);
+  transform: scaleX(2);
+}
+:hover > .om-cc-arrow-left:after,
+:hover > .om-cc-arrow-right:after,
+:focus > .om-cc-arrow-left:after,
+:focus > .om-cc-arrow-right:after {
+  -moz-transform: scaleX(0.5);
+  -ms-transform: scaleX(0.5);
+  -o-transform: scaleX(0.5);
+  -webkit-transform: scaleX(0.5);
+  transform: scaleX(0.5);
+}
+.om-cc-arrow-left {
+  -moz-transform-origin: right;
+  -ms-transform-origin: right;
+  -o-transform-origin: right;
+  -webkit-transform-origin: right;
+  transform-origin: right;
+}
+.om-cc-arrow-left:after {
+  left: -5px;
+  border-left-color: transparent;
+}
+.om-cc-arrow-right {
+  -moz-transform-origin: left;
+  -ms-transform-origin: left;
+  -o-transform-origin: left;
+  -webkit-transform-origin: left;
+  transform-origin: left;
+}
+.om-cc-arrow-right:after {
+  right: -5px;
+  border-right-color: transparent;
+}

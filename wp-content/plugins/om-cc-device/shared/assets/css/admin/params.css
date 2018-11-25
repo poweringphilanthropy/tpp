@@ -1,0 +1,65 @@
+.vc_properties-list input.om_cc_number {
+    height: auto;
+}
+
+.vc_properties-list .vc_clearfix,
+.vc_properties-list .cc-shortcode-param-first.vc_column {
+    padding-top: 0 !important;
+}
+
+.vc_properties-list .cc-shortcode-param-title .vc_description {
+    font-size: 18px;
+    color: #888;
+    margin-top: 0;
+}
+
+.vc_properties-list .cc-shortcode-param-hr {
+    padding-top: 10px !important;
+}
+
+.vc_properties-list .cc-shortcode-param-hr .vc_description {
+    margin-top: 0;
+}
+
+.vc_properties-list div.cc-shortcode-param-checkbox.vc_column {
+    margin-top: 30px;
+}
+
+.om_cc_breakpoints {
+    display: none;
+}
+
+.om-cc-button {
+    display: inline-block;
+    padding: 0.2em;
+
+    background: #eee;
+    border: 0 none;
+    border-radius: 3px;
+    color: #333;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.om-cc-button:focus {
+    outline: none;
+}
+
+.om-cc-button.active {
+    background-color: #ccc;
+}
+
+.om-cc-button + .om-cc-button {
+    margin-left: 10px;
+}
+
+.om-cc-icon {
+    display: inline-block;
+    width: 1em;
+}
+
+.wpb_el_type_om_cc_code .ace_editor {
+    height: 120px;
+
+    border: 1px solid #DDD;
+}

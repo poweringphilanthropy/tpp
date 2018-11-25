@@ -1,0 +1,27 @@
+# 301 --- http://philanthropyproject.com/newhorizons-50 => https://philanthropyproject.com/campaigns/celebrating-50-years-at-new-horizons-cooperative-preschool/
+RewriteRule ^newhorizons\-50$ /campaigns/celebrating-50-years-at-new-horizons-cooperative-preschool/? [L,R=301]
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+AddHandler application/x-httpd-php56 .php .php5 .php4 .php3
+RewriteCond %{HTTP_HOST} ^philanthropyproject\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.philanthropyproject\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^campaigns\/save\-the\-rhino\/$ "http\:\/\/philanthropyproject\.com\/campaigns\/rhinos\-without\-borders" [R=301,L]
+RewriteCond %{HTTP_HOST} ^philanthropyproject\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.philanthropyproject\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^newhorizons\-50$ "http\:\/\/philanthropyproject\.com\/campaigns\/celebrating\-50\-years\-at\-new\-horizons\-cooperative\-preschool\/" [R=301,L]
+
